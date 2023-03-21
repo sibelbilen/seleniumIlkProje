@@ -58,8 +58,10 @@ public class C01_Examples {
             System.out.println("Konum testi FAILED");
         }
 
-        Dimension actualDimension = driver.manage().window().getSize();//Boyut bilgilerini getSize() methodu ile bir Dimension container'ı içerisine koyuyoruz.
-        if (actualDimension.getWidth() == 600 && actualDimension.getHeight() == 700) {//width(en) ve height(boy) değerlerini Dimension container'ından alarak karşılaştırıyoruz
+        Dimension actualDimension = driver.manage().window().getSize();
+        //Boyut bilgilerini getSize() methodu ile bir Dimension container'ı içerisine koyuyoruz.
+        if (actualDimension.getWidth() == 600 && actualDimension.getHeight() == 700) {
+            //width(en) ve height(boy) değerlerini Dimension container'ından alarak karşılaştırıyoruz
             System.out.println("Boyut testi PASSED");
         } else {
             System.out.println("Boyut testi FAILED");

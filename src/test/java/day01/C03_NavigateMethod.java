@@ -24,8 +24,6 @@ public class C03_NavigateMethod {
 
 
          Thread.sleep(2000);
-
-
            // Thread.sleep(3000);//3000 ms bekler=> Java methodu
             driver.navigate().to("https://techproeducation.com");
             //driver.get("https://techproeducation.com");
